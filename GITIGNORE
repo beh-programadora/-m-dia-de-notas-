@@ -1,0 +1,37 @@
+
+### .gitignore
+
+```gitignore
+# Ignorar arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar diretórios de cache
+__pycache__/
+Enunciado do Projeto
+# Enunciado do Projeto: Calculador de Média de Notas
+
+## Objetivo
+
+Desenvolver um script em Python que solicite ao usuário a entrada de três notas, calcule a média dessas notas e exiba o resultado formatado com duas casas decimais.
+
+## Requisitos
+
+1. O script deve solicitar ao usuário que insira três notas.
+2. As notas devem ser armazenadas em uma lista.
+3. Calcular a média das notas fornecidas.
+4. Exibir a média com duas casas decimais.
+
+## Passos para Implementação
+
+1. Crie um arquivo chamado `calcular_media.py`.
+2. No arquivo, solicite ao usuário a entrada de três notas usando a função `input()`.
+3. Armazene as notas em uma lista.
+4. Calcule a média das notas utilizando a função `sum()` e o comprimento da lista.
+5. Exiba a média formatada com duas casas decimais usando a função `print()` e formatação de string.
+6. Salve e execute o script para verificar se a média está correta.
+
+## Exemplo de Saída Esperada
+
+Digite a nota 1: 7.5 Digite a nota 2: 8.0 Digite a nota 3: 6.5 A média das notas é 7.33
